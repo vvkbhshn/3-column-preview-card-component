@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](..3-column-preview-card-component/images/final-screenshot.jpg)
+![](https://github.com/vvkbhshn/3-column-preview-card-component/blob/main/images/final-screenshot.png)
 
 ### Links
 
