@@ -1,0 +1,101 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca";
+    font-size: 15px;
+}
+
+.container-fluid {
+    padding: 10% 15%;
+}
+.cars {
+    padding: 5%;
+}
+
+.icons {
+    padding-bottom: 10%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    padding: 5% 0 10%;
+    font-size: 3rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+    padding-bottom: 30%;
+    font-size: 1.1rem;;
+    opacity: 0.8;
+}
+
+.btn{
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 5% 15%;
+}
+
+.sedan-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+    color: hsl(0, 0%, 95%);
+    border-width: 2px;
+}
+
+.sedan-btn:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv-btn:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media (max-width:990px){
+
+    .container-fluid {
+        padding: 15% 10%;
+    }
+
+    .cars {
+        padding: 10%;
+    }
+
+    p {
+        font-size: 1.3rem;
+        padding-bottom: 10%;
+    }
+}
+
+
+/* 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
